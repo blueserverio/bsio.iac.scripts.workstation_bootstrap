@@ -32,3 +32,7 @@ wsl -u root -e sudo apt upgrade -y
 wsl -u root -e sudo apt install software-properties-common
 wsl -u root -e sudo add-apt-repository --yes --update ppa:ansible/ansible
 wsl -u root -e sudo apt install ansible -y
+
+# Git pull
+wsl -u root -e git clone https://github.com/blueserverio/bsio.iac.provision_environment.git
+wsl -u root -e cd bsio.iac.provision_environment
